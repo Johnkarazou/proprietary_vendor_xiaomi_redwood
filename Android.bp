@@ -3036,7 +3036,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libQnnHtpStub.so"],
-			shared_libs: ["liblog", "libcdsprpc", "libm", "libdl", "libc", ],
+			shared_libs: ["liblog", "libdl", "libcdsprpc", "libm", "libc", ],
 		},
 	},
 	compile_multilib: "64",
