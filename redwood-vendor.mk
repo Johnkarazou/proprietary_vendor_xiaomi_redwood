@@ -1100,6 +1100,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys-V4.0-java \
     vendor.xiaomi.hardware.misys.V3_0 \
     audiosphere \
+    camerax-vendor-extensions \
     com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
     dpmapi \
