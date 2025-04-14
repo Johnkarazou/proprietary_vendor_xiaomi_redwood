@@ -197,6 +197,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
     vendor/xiaomi/redwood/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
@@ -695,6 +696,7 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     camera.xiaomi \
     com.qti.chi.override \
+    displayfeature.default \
     fingerprint.goodix.default \
     vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.gnss@4.0-impl \
@@ -706,6 +708,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
     vendor.xiaomi.hardware.citsensorservice@1.1-impl \
+    vendor.xiaomi.hardware.displayfeature@1.0-impl \
     jcos_nq_client \
     lib-imscommon \
     lib-imsdpl \
@@ -777,6 +780,7 @@ PRODUCT_PACKAGES += \
     libcdsp_default_listener \
     libceres \
     libchilog \
+    libclient2slpi.notifier \
     libcne \
     libcneapiclient \
     libcneoplookup \
@@ -790,6 +794,8 @@ PRODUCT_PACKAGES += \
     libdataitems \
     libdeflicker \
     libdisp-aba \
+    libdisplayfeature \
+    libdisplayfeatureservice \
     libdisplayqos \
     libdisplayskuutils \
     libdlbdsservice \
@@ -829,6 +835,7 @@ PRODUCT_PACKAGES += \
     liblqe \
     libmctfengine_stub \
     libmdsprpc \
+    libmi-stc-HW-modulate \
     libmiStereoFactoryRemapBasicLib \
     libmiXmlParser \
     libmiai_portraitsupernight \
@@ -1063,6 +1070,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.campostproc@1.0 \
     vendor.xiaomi.hardware.citsensorservice@1.0 \
     vendor.xiaomi.hardware.citsensorservice@1.1 \
+    vendor.xiaomi.hardware.displayfeature@1.0_vendor \
     bm2n06 \
     bm2n08 \
     bm2n13 \
@@ -1166,6 +1174,7 @@ PRODUCT_PACKAGES += \
     cdsprpcd \
     cnd \
     cnss-daemon \
+    displayfeature \
     dpmQmiMgr \
     dspservice \
     android.hardware.bluetooth@1.0-service-qti \
@@ -1185,6 +1194,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.secure_element@1.2-service \
     vendor.xiaomi.hardware.citsensorservice@1.1-service \
+    vendor.xiaomi.hardware.displayfeature@1.0-service \
     vendor.xiaomi.hardware.misys@1.0-service \
     vendor.xiaomi.hardware.misys@2.0-service \
     vendor.xiaomi.hardware.misys@3.0-service \
